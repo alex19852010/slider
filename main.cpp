@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
             slider.setMaximum(100);
 
             QLabel label;
-            QPixmap image("C:/Users/User/Pictures/circles/faq2.png");
+            QPixmap image("://images/faq2.png");
             label.setPixmap(image);
             label.setFixedSize(220, 120);
             layout.addWidget(&label);
@@ -31,19 +31,19 @@ int main(int argc, char *argv[])
 
                 if(value <= 33)
                 {
-                    QPixmap image("C:/Users/User/Pictures/circles/faq2.png");
+                    QPixmap image("://images/faq2.png");
                     label.setPixmap(image);
                 }
 
 
                 else if(value > 33 && value <= 66)                {
-                    QPixmap image("C:/Users/User/Pictures/circles/faq3.png");
+                    QPixmap image("://images/faq3.png");
                     label.setPixmap(image);
                 }
 
                 else if (value > 66)
                 {
-                    QPixmap image("C:/Users/User/Pictures/circles/faq1.png");
+                    QPixmap image("://images/faq1.png");
                     label.setPixmap(image);
                 }
 
